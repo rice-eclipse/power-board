@@ -2,9 +2,55 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 64ff903e-83f4-41e3-bb4b-aa5b7134eca7)
+	(uuid "64ff903e-83f4-41e3-bb4b-aa5b7134eca7")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 91.44 58.42)
+		(size 49.53 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "517cd960-d933-47a9-a3a6-20d0a16ab476")
+		(property "Sheetname" "Input-Protection"
+			(at 91.44 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input-Protection.kicad_sch"
+			(at 91.44 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
