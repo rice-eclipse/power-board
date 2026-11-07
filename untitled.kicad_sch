@@ -1978,7 +1978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBV_2,5_5-GF-5,08_1x05_P5.08mm_Vertical_ThreadedFlange_MountHole"
+		(property "Footprint" "xTerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal"
 			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.phoenixcontact.com/us/products/1905201/pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/73445-WJ124_3_81_05P_1400A/C72336"
 			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
