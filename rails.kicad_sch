@@ -3058,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Value" "V_BAT"
+		(property "Value" "V_BATT"
 			(at 168.91 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)

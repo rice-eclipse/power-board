@@ -791,8 +791,10 @@
 		)
 		(uuid "c790cea9-93d2-4ab8-954e-4280d6cbc31e")
 	)
-	(label "Vin_P"
+	(global_label "V_BATT"
+		(shape output)
 		(at 104.14 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -800,6 +802,18 @@
 			(justify left bottom)
 		)
 		(uuid "5d929d8a-5af3-42d0-8b91-dcee183fe46b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Fuse")
