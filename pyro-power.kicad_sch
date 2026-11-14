@@ -1275,7 +1275,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "Q303")
 					(unit 1)
 				)
@@ -1353,96 +1353,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 144.78 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a63de3e-b09a-4f4f-b031-2f62009e84e9")
-		(property "Reference" "Q305"
-			(at 151.13 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AP25P06K"
-			(at 151.13 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 149.86 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 144.78 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "96a17314-aa73-45f9-a3c1-56ea4eeed2d9")
-		)
-		(pin "3"
-			(uuid "5af95282-8229-4494-816e-b019cc861ff7")
-		)
-		(pin "1"
-			(uuid "0755bd33-ce87-43ef-a641-56cc31d1bf97")
-		)
-		(instances
-			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q305")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1431,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR302")
 					(unit 1)
 				)
@@ -1607,7 +1519,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "Q302")
 					(unit 1)
 				)
@@ -1695,7 +1607,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "Q304")
 					(unit 1)
 				)
@@ -1773,7 +1685,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR304")
 					(unit 1)
 				)
@@ -1861,7 +1773,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "Q301")
 					(unit 1)
 				)
@@ -1939,7 +1851,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR305")
 					(unit 1)
 				)
@@ -1978,7 +1890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "xTerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal"
 			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2028,7 +1940,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "J301")
 					(unit 1)
 				)
@@ -2106,7 +2018,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR301")
 					(unit 1)
 				)
