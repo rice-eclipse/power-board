@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -661,17 +661,21 @@
         "uuid": "64ff903e-83f4-41e3-bb4b-aa5b7134eca7"
       }
     ],
-    "used_designators": "U1-2,#PWR1-6,L1-2,C1-8,CN1",
+    "used_designators": "U1-2,L1-2,#PWR1-6,C1-8,CN1",
     "variants": []
   },
   "sheets": [
     [
-      "527c9df6-dc0a-40f6-8ecc-02d5214022f5",
+      "64ff903e-83f4-41e3-bb4b-aa5b7134eca7",
       "Root"
     ],
     [
       "2baa9da8-939a-4db1-8fb3-d6dcd4497021",
       "input-protection"
+    ],
+    [
+      "0eaf81e7-a637-4009-8e12-e6633ba7acf8",
+      "pyro-control"
     ],
     [
       "aa8285c6-2b6d-4748-add4-e3fc6949c0a3",
@@ -680,10 +684,6 @@
     [
       "a19bc77c-81c7-4000-af90-eb9965c7dfd4",
       "pyro-power"
-    ],
-    [
-      "0eaf81e7-a637-4009-8e12-e6633ba7acf8",
-      "pyro-control"
     ]
   ],
   "text_variables": {},

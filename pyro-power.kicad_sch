@@ -370,8 +370,149 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IPD50R3K0CE"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_PMOS_GDS"
+			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -390,7 +531,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IPD50R3K0CE"
+			(property "Value" "Q_PMOS_GDS"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -401,21 +542,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -423,10 +551,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -437,7 +564,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "CoolMOS Power MOSFET N-MOS"
+			(property "Description" "P-MOSFET transistor, gate/drain/source"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -448,7 +575,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?252*"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -459,7 +586,7 @@
 					)
 				)
 			)
-			(symbol "IPD50R3K0CE_0_1"
+			(symbol "Q_PMOS_GDS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -498,6 +625,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
@@ -520,30 +659,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(circle
 					(center 1.651 0)
 					(radius 2.794)
@@ -553,6 +668,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -603,7 +730,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -615,7 +742,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -626,7 +753,7 @@
 					)
 				)
 			)
-			(symbol "IPD50R3K0CE_1_1"
+			(symbol "Q_PMOS_GDS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -846,26 +973,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 82.55) (xy 252.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e64d01-7d6a-42bf-ac89-f41ed72816c3")
-	)
-	(wire
-		(pts
-			(xy 173.99 82.55) (xy 173.99 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114baaec-2a5b-4e17-82f1-0a7e3a0a0cba")
-	)
-	(wire
-		(pts
 			(xy 173.99 69.85) (xy 173.99 72.39)
 		)
 		(stroke
@@ -886,13 +993,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 226.06 93.98)
+			(xy 252.73 90.17) (xy 252.73 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3896a5f3-c436-4964-9db4-d1b6acb57a11")
+		(uuid "271ee346-7009-4a31-8535-dfd95a1a7f9a")
 	)
 	(wire
 		(pts
@@ -923,16 +1030,6 @@
 			(type default)
 		)
 		(uuid "41fb93e8-0ee2-491b-a533-fb2a44c4b23b")
-	)
-	(wire
-		(pts
-			(xy 199.39 82.55) (xy 199.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af5d6f4-d925-4d76-a7b7-5f6293762414")
 	)
 	(wire
 		(pts
@@ -986,6 +1083,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 90.17) (xy 173.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83490beb-4e21-4298-82bd-b3bc19938fea")
+	)
+	(wire
+		(pts
 			(xy 199.39 92.71) (xy 193.04 92.71)
 		)
 		(stroke
@@ -996,13 +1103,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 147.32 95.25)
+			(xy 199.39 90.17) (xy 199.39 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99fbf2bc-eb3a-494d-ac1b-962db1a15003")
+		(uuid "9b28f5e1-3cc6-444f-99e5-4725d2c424ca")
 	)
 	(wire
 		(pts
@@ -1066,6 +1173,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 90.17) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2dedfc1-67aa-4307-b1f8-192b71f35a72")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fc3833-f72d-4f6a-bbc3-c01b0e05a93f")
+	)
+	(wire
+		(pts
 			(xy 252.73 69.85) (xy 252.73 72.39)
 		)
 		(stroke
@@ -1074,55 +1201,7 @@
 		)
 		(uuid "eb79e3be-4281-44ff-89c7-509ec6886023")
 	)
-	(global_label "PRYO_CTRL_4"
-		(shape input)
-		(at 214.63 77.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04365e38-8e70-4a25-be89-8c135d3ef19c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 61.8453 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PRYO_CTRL_1"
-		(shape input)
-		(at 135.89 77.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15522ad3-eff9-4a68-83e4-a1d7cfc29a0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 61.8453 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PRYO_CTRL_3"
+	(global_label "ARM"
 		(shape input)
 		(at 187.96 77.47 90)
 		(fields_autoplaced yes)
@@ -1132,9 +1211,9 @@
 			)
 			(justify left)
 		)
-		(uuid "24d170fe-c887-46d3-81ad-9ca0ee183709")
+		(uuid "7cc1fe41-c104-4a67-adf0-49f4d2895dc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 61.8453 90)
+			(at 187.96 70.6748 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1146,7 +1225,55 @@
 			)
 		)
 	)
-	(global_label "ARM_1"
+	(global_label "ARM"
+		(shape input)
+		(at 162.56 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7b07837-a077-46f9-ac16-836154d41a50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 70.6748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ARM"
+		(shape input)
+		(at 214.63 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0f404bc-5e71-4741-88b5-56118537895f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 70.6748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ARM"
 		(shape input)
 		(at 241.3 77.47 90)
 		(fields_autoplaced yes)
@@ -1158,7 +1285,7 @@
 		)
 		(uuid "c335006f-86bb-4b8f-91e2-d08945d35d61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 68.4977 90)
+			(at 241.3 70.6748 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,9 +1297,9 @@
 			)
 		)
 	)
-	(global_label "PRYO_CTRL_2"
+	(global_label "ARM"
 		(shape input)
-		(at 162.56 77.47 90)
+		(at 135.89 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1180,9 +1307,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ecfd7c41-d4a2-42ba-bce7-c8f5fe5b5243")
+		(uuid "f91970bb-81f5-4e8d-b1fa-0584ee2b597b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 61.8453 90)
+			(at 135.89 70.6748 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,8 +1322,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 223.52 77.47 0)
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 196.85 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1205,9 +1332,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02070bee-7be7-4ae5-bfc1-595524c4a2aa")
-		(property "Reference" "Q303"
-			(at 229.87 76.1999 0)
+		(uuid "132ead01-1ff8-4a1a-87ef-3cd6feb5916a")
+		(property "Reference" "Q3"
+			(at 203.2 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1217,8 +1344,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP25P06K"
-			(at 229.87 78.7399 0)
+		(property "Value" "IXTY2P50PA"
+			(at 203.2 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1229,32 +1356,18 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 228.6 79.375 0)
+			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 223.52 77.47 0)
+			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1264,19 +1377,36 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "77464399-3484-440c-ab03-0493a34f6e18")
-		)
-		(pin "3"
-			(uuid "a61d37af-1bd1-4f2d-9a3c-978ef43dbb1c")
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6378ea8b-bc13-4566-938e-9ed46d378382")
+			(uuid "2be1d403-8b57-4fd6-96c1-389c6a669993")
+		)
+		(pin "3"
+			(uuid "e2f6bff5-5b3a-4a01-8f4b-d56365d26de3")
+		)
+		(pin "2"
+			(uuid "78688c72-95f7-498f-a1cf-403934010e38")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q303")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1353,7 +1483,13 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "#PWR303")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
 					(reference "#PWR303")
 					(unit 1)
 				)
@@ -1361,8 +1497,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 144.78 77.47 0)
+		(lib_id "Device:R")
+		(at 252.73 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1371,9 +1507,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a63de3e-b09a-4f4f-b031-2f62009e84e9")
-		(property "Reference" "Q305"
-			(at 151.13 76.1999 0)
+		(uuid "39ec9ab2-2559-4775-adba-e0362c671d84")
+		(property "Reference" "R5"
+			(at 255.27 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1383,8 +1519,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP25P06K"
-			(at 151.13 78.7399 0)
+		(property "Value" "100K"
+			(at 255.27 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1394,21 +1530,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 149.86 79.375 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 250.952 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 81.28 0)
+			(at 252.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1416,11 +1550,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 144.78 77.47 0)
+		(property "Description" "Resistor"
+			(at 252.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,18 +1564,112 @@
 			)
 		)
 		(pin "2"
-			(uuid "96a17314-aa73-45f9-a3c1-56ea4eeed2d9")
-		)
-		(pin "3"
-			(uuid "5af95282-8229-4494-816e-b019cc861ff7")
+			(uuid "7ea221d0-1853-4bf2-bfba-a9dd9669b5d8")
 		)
 		(pin "1"
-			(uuid "0755bd33-ce87-43ef-a641-56cc31d1bf97")
+			(uuid "b066c601-f896-4f78-a8c7-7580e3e0f8fb")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q305")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 250.19 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574cbb4a-ec12-4c63-ae6b-d4d7fb030006")
+		(property "Reference" "Q5"
+			(at 256.54 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXTY2P50PA"
+			(at 256.54 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 255.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85efe3a7-eab7-4bff-978a-cf316b9c30af")
+		)
+		(pin "3"
+			(uuid "055f162a-e89b-4276-9d20-4515ab98eca2")
+		)
+		(pin "2"
+			(uuid "245ad6c7-461b-43db-bd7b-b3ac37056582")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1746,13 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "#PWR302")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
 					(reference "#PWR302")
 					(unit 1)
 				)
@@ -1527,8 +1760,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 250.19 77.47 0)
+		(lib_id "Device:R")
+		(at 226.06 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1537,9 +1770,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74ed692a-c302-4bf5-8f3c-03228cfcfa29")
-		(property "Reference" "Q302"
-			(at 256.54 76.1999 0)
+		(uuid "6a29dcc0-d362-465e-81bd-6af187e7a190")
+		(property "Reference" "R4"
+			(at 228.6 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1549,8 +1782,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP25P06K"
-			(at 256.54 78.7399 0)
+		(property "Value" "100K"
+			(at 228.6 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1560,21 +1793,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 255.27 79.375 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.282 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 81.28 0)
+			(at 226.06 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1582,11 +1813,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 250.19 77.47 0)
+		(property "Description" "Resistor"
+			(at 226.06 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1597,26 +1827,29 @@
 			)
 		)
 		(pin "2"
-			(uuid "c11a9b21-0591-4c5d-affc-a0c9aecc9b22")
-		)
-		(pin "3"
-			(uuid "d03ef5e5-3fd3-4614-aa10-deea0f687ee7")
+			(uuid "95c34812-6b7c-48ef-b2ee-06cbc3bcb7f4")
 		)
 		(pin "1"
-			(uuid "0d4084bb-2477-4b22-a6d8-7e8d59030cd6")
+			(uuid "29d3e900-54dd-4195-a23e-7055330e26f3")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q302")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 171.45 77.47 0)
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 223.52 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1625,9 +1858,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90b845e1-be13-4003-98ea-e889fe1b23be")
-		(property "Reference" "Q304"
-			(at 177.8 76.1999 0)
+		(uuid "7a9b3c63-3f28-42c4-afa3-dce71b9a8b20")
+		(property "Reference" "Q4"
+			(at 229.87 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1637,8 +1870,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP25P06K"
-			(at 177.8 78.7399 0)
+		(property "Value" "IXTY2P50PA"
+			(at 229.87 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1649,32 +1882,18 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 176.53 79.375 0)
+			(at 228.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 171.45 77.47 0)
+			(at 223.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,19 +1903,36 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9fb8856b-8d42-45b8-8a2a-b82fc31f664a")
-		)
-		(pin "3"
-			(uuid "c8d756a7-9c89-47a2-9d2f-59815338afca")
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "2389083a-3ed7-467d-b586-3bea82e24fb8")
+			(uuid "8c373509-c4e1-4ca0-8029-03cc7da5ca5a")
+		)
+		(pin "3"
+			(uuid "0922798d-6a08-4593-bf98-4f245450ca5a")
+		)
+		(pin "2"
+			(uuid "89a83cd0-eb16-45d6-8fee-a6c713ffb09f")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q304")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1773,7 +2009,13 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "#PWR304")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
 					(reference "#PWR304")
 					(unit 1)
 				)
@@ -1781,8 +2023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 196.85 77.47 0)
+		(lib_id "Device:R")
+		(at 147.32 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1791,9 +2033,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd0e3d7a-d512-4f47-b7cf-343625b613a4")
-		(property "Reference" "Q301"
-			(at 203.2 76.1999 0)
+		(uuid "b7e9f683-1c08-4c9e-aabf-4a96ee992332")
+		(property "Reference" "R1"
+			(at 149.86 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1803,8 +2045,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP25P06K"
-			(at 203.2 78.7399 0)
+		(property "Value" "100K"
+			(at 149.86 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1814,21 +2056,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 201.93 79.375 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 145.542 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 81.28 0)
+			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,11 +2076,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2"
-			(at 196.85 77.47 0)
+		(property "Description" "Resistor"
+			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,18 +2090,200 @@
 			)
 		)
 		(pin "2"
-			(uuid "38bd7249-200f-468e-b2e5-c147efd724f3")
-		)
-		(pin "3"
-			(uuid "162a190d-4804-4192-b345-f66b9b36e84c")
+			(uuid "067d38de-2fc7-4eb9-983d-202b37f1c11c")
 		)
 		(pin "1"
-			(uuid "93376665-f712-43fb-b3f1-52a66da512cc")
+			(uuid "ba37ad22-90cb-4a42-a021-867a979d96b2")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q301")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1578f8f-b31b-4371-b47b-9cb5567ecae6")
+		(property "Reference" "R2"
+			(at 176.53 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 176.53 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.212 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b2582e2-e25d-47fe-9d7e-0335182dedae")
+		)
+		(pin "1"
+			(uuid "a675cc61-2ff5-4fc2-993d-0aaf258559c7")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 144.78 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c210bfae-c410-4c4c-8c51-ce7bab750d7d")
+		(property "Reference" "Q1"
+			(at 151.13 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXTY2P50PA"
+			(at 151.13 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 149.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f04c72-e73a-49d3-a620-ff3136228f77")
+		)
+		(pin "3"
+			(uuid "b056dfb3-65bd-4858-87bc-57553f93ce09")
+		)
+		(pin "2"
+			(uuid "fed71300-7c95-4ed5-a627-409cb3152e89")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1939,8 +2360,105 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR305")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "#PWR305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 171.45 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d01b26-38fe-42af-bb61-cbf1195b1ba1")
+		(property "Reference" "Q2"
+			(at 177.8 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXTY2P50PA"
+			(at 177.8 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 176.53 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4097e591-419a-4672-ad20-bc6fd3cb7248")
+		)
+		(pin "3"
+			(uuid "83d6e8bd-1e51-463c-9626-7dfc93da5f25")
+		)
+		(pin "2"
+			(uuid "a53552d4-6c47-446d-b12a-dfd8d85b0a7d")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1978,7 +2496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "xTerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal"
 			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2028,8 +2546,102 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "J301")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0148702-fb7b-439e-ae31-f3ae5f9199d4")
+		(property "Reference" "R3"
+			(at 201.93 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 201.93 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.612 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70e3c9fd-a7bf-4733-a137-a2900d3ee5e5")
+		)
+		(pin "1"
+			(uuid "8a69c85f-3d68-472e-8f8e-81118cf0b628")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2106,11 +2718,22 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR301")
 					(unit 1)
 				)
 			)
+			(project "pyro-power"
+				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+					(reference "#PWR301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
