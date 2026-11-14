@@ -813,7 +813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4300be87-a02b-4492-86a2-f8ca57f0b49e")
-		(property "Reference" "F1"
+		(property "Reference" "F101"
 			(at 105.41 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -887,8 +887,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/517cd960-d933-47a9-a3a6-20d0a16ab476"
-					(reference "F1")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/2baa9da8-939a-4db1-8fb3-d6dcd4497021"
+					(reference "F101")
 					(unit 1)
 				)
 			)
@@ -906,7 +906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4329dd-b299-4099-bcbd-3700173a166c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR101"
 			(at 120.65 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -966,8 +966,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/517cd960-d933-47a9-a3a6-20d0a16ab476"
-					(reference "#PWR01")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/2baa9da8-939a-4db1-8fb3-d6dcd4497021"
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -985,7 +985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f517da-e727-498d-9e1a-2fd7294028ca")
-		(property "Reference" "Q1"
+		(property "Reference" "Q101"
 			(at 107.95 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1054,8 +1054,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/517cd960-d933-47a9-a3a6-20d0a16ab476"
-					(reference "Q1")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/2baa9da8-939a-4db1-8fb3-d6dcd4497021"
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -1073,7 +1073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab1b882-a5e6-47b3-8fbd-5894a82687e9")
-		(property "Reference" "D1"
+		(property "Reference" "D101"
 			(at 110.49 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1134,8 +1134,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/517cd960-d933-47a9-a3a6-20d0a16ab476"
-					(reference "D1")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/2baa9da8-939a-4db1-8fb3-d6dcd4497021"
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da31e716-d13c-40e7-8ffc-8adbbb5e3956")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR102"
 			(at 88.9 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1213,8 +1213,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/517cd960-d933-47a9-a3a6-20d0a16ab476"
-					(reference "#PWR02")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/2baa9da8-939a-4db1-8fb3-d6dcd4497021"
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
