@@ -2769,7 +2769,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C207")
 					(unit 1)
 				)
@@ -2883,7 +2883,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C203")
 					(unit 1)
 				)
@@ -3028,7 +3028,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "CN201")
 					(unit 1)
 				)
@@ -3106,7 +3106,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR205")
 					(unit 1)
 				)
@@ -3221,7 +3221,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C205")
 					(unit 1)
 				)
@@ -3335,7 +3335,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "L202")
 					(unit 1)
 				)
@@ -3449,7 +3449,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C206")
 					(unit 1)
 				)
@@ -3527,7 +3527,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR204")
 					(unit 1)
 				)
@@ -3640,7 +3640,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "L201")
 					(unit 1)
 				)
@@ -3755,7 +3755,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C202")
 					(unit 1)
 				)
@@ -3869,7 +3869,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C201")
 					(unit 1)
 				)
@@ -3961,7 +3961,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "U202")
 					(unit 1)
 				)
@@ -4075,7 +4075,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C208")
 					(unit 1)
 				)
@@ -4189,7 +4189,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C204")
 					(unit 1)
 				)
@@ -4267,7 +4267,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR203")
 					(unit 1)
 				)
@@ -4359,7 +4359,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "U201")
 					(unit 1)
 				)
@@ -4437,7 +4437,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR201")
 					(unit 1)
 				)
@@ -4515,7 +4515,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR202")
 					(unit 1)
 				)
@@ -4527,5 +4527,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
