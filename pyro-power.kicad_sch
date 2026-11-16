@@ -1333,7 +1333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132ead01-1ff8-4a1a-87ef-3cd6feb5916a")
-		(property "Reference" "Q3"
+		(property "Reference" "Q303"
 			(at 203.2 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1344,7 +1344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IXTY2P50PA"
+		(property "Value" "AP25P06K"
 			(at 203.2 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,6 +1388,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2995326"
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AP25P06K"
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2be1d403-8b57-4fd6-96c1-389c6a669993")
 		)
@@ -1399,14 +1421,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "Q3")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q303")
 					(unit 1)
 				)
 			)
@@ -1483,13 +1499,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "#PWR303")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR303")
 					(unit 1)
 				)
@@ -1508,7 +1518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ec9ab2-2559-4775-adba-e0362c671d84")
-		(property "Reference" "R5"
+		(property "Reference" "R305"
 			(at 255.27 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,14 +1581,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "R5")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -1596,7 +1600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574cbb4a-ec12-4c63-ae6b-d4d7fb030006")
-		(property "Reference" "Q5"
+		(property "Reference" "Q305"
 			(at 256.54 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1607,7 +1611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IXTY2P50PA"
+		(property "Value" "AP25P06K"
 			(at 256.54 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,6 +1655,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2995326"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AP25P06K"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85efe3a7-eab7-4bff-978a-cf316b9c30af")
 		)
@@ -1662,14 +1688,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "Q5")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q305")
 					(unit 1)
 				)
 			)
@@ -1746,13 +1766,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "#PWR302")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR302")
 					(unit 1)
 				)
@@ -1771,7 +1785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a29dcc0-d362-465e-81bd-6af187e7a190")
-		(property "Reference" "R4"
+		(property "Reference" "R304"
 			(at 228.6 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,14 +1848,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "R4")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -1859,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9b3c63-3f28-42c4-afa3-dce71b9a8b20")
-		(property "Reference" "Q4"
+		(property "Reference" "Q304"
 			(at 229.87 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,7 +1878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IXTY2P50PA"
+		(property "Value" "AP25P06K"
 			(at 229.87 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,6 +1922,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2995326"
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AP25P06K"
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c373509-c4e1-4ca0-8029-03cc7da5ca5a")
 		)
@@ -1925,14 +1955,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "Q4")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q304")
 					(unit 1)
 				)
 			)
@@ -2009,13 +2033,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "#PWR304")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR304")
 					(unit 1)
 				)
@@ -2034,7 +2052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e9f683-1c08-4c9e-aabf-4a96ee992332")
-		(property "Reference" "R1"
+		(property "Reference" "R301"
 			(at 149.86 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2097,14 +2115,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "R1")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1578f8f-b31b-4371-b47b-9cb5567ecae6")
-		(property "Reference" "R2"
+		(property "Reference" "R302"
 			(at 176.53 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2185,14 +2197,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "R2")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c210bfae-c410-4c4c-8c51-ce7bab750d7d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q301"
 			(at 151.13 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2221,7 +2227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IXTY2P50PA"
+		(property "Value" "AP25P06K"
 			(at 151.13 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2265,6 +2271,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2995326"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AP25P06K"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08f04c72-e73a-49d3-a620-ff3136228f77")
 		)
@@ -2276,14 +2304,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "Q1")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -2360,13 +2382,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "#PWR305")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR305")
 					(unit 1)
 				)
@@ -2385,7 +2401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d01b26-38fe-42af-bb61-cbf1195b1ba1")
-		(property "Reference" "Q2"
+		(property "Reference" "Q302"
 			(at 177.8 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IXTY2P50PA"
+		(property "Value" "AP25P06K"
 			(at 177.8 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,6 +2456,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2995326"
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AP25P06K"
+			(at 171.45 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4097e591-419a-4672-ad20-bc6fd3cb7248")
 		)
@@ -2451,14 +2489,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "Q2")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -2546,13 +2578,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "J301")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "J301")
 					(unit 1)
 				)
@@ -2571,7 +2597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0148702-fb7b-439e-ae31-f3ae5f9199d4")
-		(property "Reference" "R3"
+		(property "Reference" "R303"
 			(at 201.93 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,14 +2660,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
-					(reference "R3")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -2718,13 +2738,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
-					(reference "#PWR301")
-					(unit 1)
-				)
-			)
-			(project "pyro-power"
-				(path "/aa15f21b-f674-4044-a74c-c921ab767c43"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/a19bc77c-81c7-4000-af90-eb9965c7dfd4"
 					(reference "#PWR301")
 					(unit 1)
 				)

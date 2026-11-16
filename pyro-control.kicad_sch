@@ -641,7 +641,7 @@
 					)
 				)
 			)
-			(property "Footprint" "C7948:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(property "Footprint" "JLCImport:SOIC127P600X175-14N"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2879,7 +2879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "005d1b9a-f22a-490e-819d-edd1a4395c92")
-		(property "Reference" "Q406"
+		(property "Reference" "Q405"
 			(at 53.34 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,14 +2946,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "Q406")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "Q406")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "Q405")
 					(unit 1)
 				)
 			)
@@ -3034,13 +3028,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R404")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "R404")
 					(unit 1)
 				)
@@ -3059,7 +3047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "035d6bd2-d333-4bc2-a613-535606b3885c")
-		(property "Reference" "Q403"
+		(property "Reference" "Q402"
 			(at 53.34 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,14 +3114,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "Q403")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "Q403")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "Q402")
 					(unit 1)
 				)
 			)
@@ -3210,13 +3192,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR410")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR410")
 					(unit 1)
 				)
@@ -3235,7 +3211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0884f0b4-22f1-4f1b-89df-a5d96929f374")
-		(property "Reference" "R410"
+		(property "Reference" "R408"
 			(at 59.69 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,14 +3274,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R410")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R410")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -3323,7 +3293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed66e0e-a777-42c5-8cf7-46d82f0cb52f")
-		(property "Reference" "R414"
+		(property "Reference" "R412"
 			(at 64.7699 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,14 +3356,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R414")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R414")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -3470,13 +3434,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR412")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR412")
 					(unit 1)
 				)
@@ -3554,13 +3512,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR401")
 					(unit 1)
 				)
@@ -3579,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d85a678-22dd-4374-955e-ec411a818ce1")
-		(property "Reference" "Q404"
+		(property "Reference" "Q403"
 			(at 53.34 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,14 +3598,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "Q404")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "Q404")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "Q403")
 					(unit 1)
 				)
 			)
@@ -3691,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "test1:SOP65P780X200-28N"
+		(property "Footprint" "JLCImport:SOP65P780X200-28N"
 			(at 165.1 167.31 0)
 			(hide yes)
 			(show_name no)
@@ -3872,13 +3818,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "IC401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "IC401")
 					(unit 1)
 				)
@@ -3960,13 +3900,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R402")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "R402")
 					(unit 1)
 				)
@@ -3985,7 +3919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f808ad-6b95-478f-9190-f3be627e52fe")
-		(property "Reference" "R411"
+		(property "Reference" "R409"
 			(at 41.91 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,14 +3980,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R411")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R411")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -4138,13 +4066,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "Q401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "Q401")
 					(unit 1)
 				)
@@ -4163,7 +4085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4294c1ad-2395-4c01-8da8-9b00db5afa13")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR414"
 			(at 66.04 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4223,14 +4145,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0414")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0414")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR414")
 					(unit 1)
 				)
 			)
@@ -4311,13 +4227,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "C402")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "C402")
 					(unit 1)
 				)
@@ -4336,7 +4246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54849d14-8db9-4a6a-99a9-46589d24a830")
-		(property "Reference" "Q405"
+		(property "Reference" "Q404"
 			(at 53.34 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,14 +4313,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "Q405")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "Q405")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "Q404")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61cfe418-04fc-4746-b364-e7cece20bd3d")
-		(property "Reference" "R412"
+		(property "Reference" "R410"
 			(at 59.69 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,14 +4395,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R412")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R412")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -4516,7 +4414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65df2ddb-194f-47aa-8f8b-070f08d2c3af")
-		(property "Reference" "R413"
+		(property "Reference" "R411"
 			(at 41.91 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,14 +4475,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R413")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R413")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -4661,13 +4553,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR406")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR406")
 					(unit 1)
 				)
@@ -4746,13 +4632,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR409")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR409")
 					(unit 1)
 				)
@@ -4771,7 +4651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70103faf-1ea1-4f86-9687-9ec3d3504a5a")
-		(property "Reference" "#PWR0421"
+		(property "Reference" "#PWR420"
 			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4831,14 +4711,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0421")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0421")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR420")
 					(unit 1)
 				)
 			)
@@ -4916,13 +4790,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR407")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR407")
 					(unit 1)
 				)
@@ -4961,7 +4829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "test1:SOIC127P600X175-14N"
+		(property "Footprint" "JLCImport:SOIC127P600X175-14N"
 			(at 236.22 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5071,13 +4939,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "U401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "U401")
 					(unit 1)
 				)
@@ -5096,7 +4958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87a5c47c-c588-4261-b070-ee42bd727998")
-		(property "Reference" "R408"
+		(property "Reference" "R406"
 			(at 59.69 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,14 +5021,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R408")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R408")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -5184,7 +5040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f35e32d-f240-4dfc-845d-1039b143b19b")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR416"
 			(at 68.58 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5244,14 +5100,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0417")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0417")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR416")
 					(unit 1)
 				)
 			)
@@ -5269,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a524659b-05b0-4986-b17c-1d0e8db10653")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR418"
 			(at 68.58 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5329,14 +5179,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0419")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0419")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR418")
 					(unit 1)
 				)
 			)
@@ -5354,7 +5198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d70b00-bf7f-4b97-b254-b9e0917ad65f")
-		(property "Reference" "R409"
+		(property "Reference" "R407"
 			(at 46.99 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,14 +5259,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R409")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R409")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7663daf-8989-44f3-a171-c94e5babb2eb")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR419"
 			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5500,14 +5338,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0420")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0420")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR419")
 					(unit 1)
 				)
 			)
@@ -5588,13 +5420,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R403")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "R403")
 					(unit 1)
 				)
@@ -5672,13 +5498,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR402")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR402")
 					(unit 1)
 				)
@@ -5697,7 +5517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba7b2183-ade3-4618-a987-418f3a14a82a")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR417"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5757,14 +5577,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0418")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0418")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR417")
 					(unit 1)
 				)
 			)
@@ -5842,13 +5656,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR404")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR404")
 					(unit 1)
 				)
@@ -5928,13 +5736,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "R401")
 					(unit 1)
 				)
@@ -6016,13 +5818,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "C401")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "C401")
 					(unit 1)
 				)
@@ -6101,13 +5897,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR405")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR405")
 					(unit 1)
 				)
@@ -6185,13 +5975,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR411")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR411")
 					(unit 1)
 				)
@@ -6270,13 +6054,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR403")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR403")
 					(unit 1)
 				)
@@ -6295,7 +6073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5bcb9d-faf7-46f9-9414-9d82c52dae59")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR413"
 			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6355,14 +6133,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0413")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0413")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR413")
 					(unit 1)
 				)
 			)
@@ -6440,13 +6212,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR408")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
 					(reference "#PWR408")
 					(unit 1)
 				)
@@ -6465,7 +6231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0093dd-3724-4a1e-b055-319954ceda94")
-		(property "Reference" "R407"
+		(property "Reference" "R405"
 			(at 41.91 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,14 +6292,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "R407")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "R407")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eead4107-fee9-4c86-af9a-87116d17889f")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR415"
 			(at 69.85 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6611,14 +6371,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
-					(reference "#PWR0416")
-					(unit 1)
-				)
-			)
-			(project "pyro-control"
-				(path "/8e191e41-e952-4ec7-bb6b-5260cd1cc790"
-					(reference "#PWR0416")
+				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/0eaf81e7-a637-4009-8e12-e6633ba7acf8"
+					(reference "#PWR415")
 					(unit 1)
 				)
 			)
