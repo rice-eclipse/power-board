@@ -3432,7 +3432,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "22b2f6c1-06b8-4cca-9eac-f4692b363b3a")
 		(property "Reference" "J201"
