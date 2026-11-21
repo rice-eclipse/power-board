@@ -4305,7 +4305,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 204.47 94.2848 0)
+			(at 205.4352 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,6 +4339,17 @@
 		)
 		(property "LCSC" "C14663"
 			(at 204.47 94.2848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 205.4352 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,6 +5093,17 @@
 				)
 			)
 		)
+			(property "LCSC" "C25804"
+			(at 172.72 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 172.72 97.79 0)
 			(hide yes)
@@ -5095,17 +5117,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 172.72 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 172.72 99.568 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3266,7 +3266,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "22b2f6c1-06b8-4cca-9eac-f4692b363b3a")
 		(property "Reference" "J201"
@@ -3896,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_FC"
+		(property "Value" "+3V3_RF"
 			(at 133.35 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5764,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_FC"
+		(property "Value" "+3V3_RF"
 			(at 133.35 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
