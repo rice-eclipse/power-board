@@ -1914,145 +1914,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2448,6 +2309,18 @@
 		)
 	)
 	(rectangle
+		(start 78.74 24.13)
+		(end 148.59 101.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6633d561-c434-44de-bc06-8c65dbcc197e")
+	)
+	(rectangle
 		(start 161.29 19.05)
 		(end 278.13 96.52)
 		(stroke
@@ -2471,6 +2344,19 @@
 			(justify top)
 		)
 		(uuid "4ac2192f-41a2-4036-8448-cc0dfbdcfdbf")
+	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 90.17 26.162 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "9661fe23-3b39-498a-ae13-cc224ea06174")
 	)
 	(junction
 		(at 255.27 63.5)
@@ -3134,101 +3020,49 @@
 		)
 		(uuid "ffc336f9-9f29-420c-b5f5-ec0218a78db3")
 	)
-	(global_label "MOSI1"
-		(shape input)
-		(at 128.27 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f897d3e-8500-446a-a32a-d185da90a095")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0609 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CS_PYRO"
-		(shape input)
-		(at 119.38 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ac81f21-31bd-42b9-9f9d-ba20a40d0f73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7714 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCLK1"
-		(shape input)
-		(at 129.54 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e5150a5-4b19-4dac-a29d-c077716c58f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.5123 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MISO1"
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 119.38 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9135dd92-77ec-4364-a5e1-471571b109bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1709 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "7b7d1e31-06c8-47b2-8adf-d85f7e07de78")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 129.54 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "ca3e551e-e627-4242-a392-5e39e9c15437")
+	)
+	(hierarchical_label "CS_PYRO"
+		(shape input)
+		(at 119.38 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5ff5bcb-d0b3-4756-a51e-5335285f2db9")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 128.27 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0ec8483-0b14-4765-8290-0ba3dc797901")
 	)
 	(symbol
 		(lib_id "JLCImport:CL21A226MPQNNNE")
@@ -3337,7 +3171,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C207")
 					(unit 1)
 				)
@@ -3416,7 +3250,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR205")
 					(unit 1)
 				)
@@ -3502,7 +3336,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "J201")
 					(unit 1)
 				)
@@ -3616,7 +3450,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C203")
 					(unit 1)
 				)
@@ -3694,7 +3528,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR209")
 					(unit 1)
 				)
@@ -3839,7 +3673,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "CN201")
 					(unit 1)
 				)
@@ -3917,7 +3751,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR215")
 					(unit 1)
 				)
@@ -4032,7 +3866,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C205")
 					(unit 1)
 				)
@@ -4040,7 +3874,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 129.54 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -4050,8 +3884,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6008780d-3dec-4789-aec8-7fa93721e490")
-		(property "Reference" "#PWR203"
+		(uuid "5d563040-71d6-4a10-b5a0-0e7131e17ef8")
+		(property "Reference" "#PWR0218"
 			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4062,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3_RF"
 			(at 133.35 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +3929,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4107,12 +3941,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0c9f343-d776-45ec-98c5-ecb289ccf464")
+			(uuid "e23fc502-e102-4225-9bfc-48268bfe35ac")
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
-					(reference "#PWR203")
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -4225,7 +4059,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "L202")
 					(unit 1)
 				)
@@ -4339,7 +4173,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C206")
 					(unit 1)
 				)
@@ -4417,7 +4251,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR214")
 					(unit 1)
 				)
@@ -4530,7 +4364,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "L201")
 					(unit 1)
 				)
@@ -4645,7 +4479,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C202")
 					(unit 1)
 				)
@@ -4724,7 +4558,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR202")
 					(unit 1)
 				)
@@ -4838,7 +4672,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C201")
 					(unit 1)
 				)
@@ -4917,7 +4751,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR201")
 					(unit 1)
 				)
@@ -4989,6 +4823,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C780769"
+			(at 207.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1c6108d6-ae19-4db2-a4c2-ac80b8ddf459")
 		)
@@ -5009,7 +4854,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "U202")
 					(unit 1)
 				)
@@ -5088,7 +4933,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR216")
 					(unit 1)
 				)
@@ -5202,7 +5047,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C208")
 					(unit 1)
 				)
@@ -5280,7 +5125,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR208")
 					(unit 1)
 				)
@@ -5394,7 +5239,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "C204")
 					(unit 1)
 				)
@@ -5472,7 +5317,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR213")
 					(unit 1)
 				)
@@ -5544,6 +5389,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C780769"
+			(at 207.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "91fdefc0-6fb0-40f8-b058-cd8fae500654")
 		)
@@ -5564,7 +5420,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "U201")
 					(unit 1)
 				)
@@ -5643,7 +5499,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR206")
 					(unit 1)
 				)
@@ -5721,87 +5577,8 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 129.54 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9d16e44-6cd1-4787-a1e8-6ea2bac3fddc")
-		(property "Reference" "#PWR204"
-			(at 125.73 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "912592ff-3596-4f0b-ac2b-0b1970ee7b84")
-		)
-		(instances
-			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
-					(reference "#PWR204")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5656,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR217")
 					(unit 1)
 				)
@@ -5957,8 +5734,87 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 129.54 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e191b88b-02fa-4321-b23e-038c2328bc98")
+		(property "Reference" "#PWR0219"
+			(at 125.73 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_RF"
+			(at 133.35 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0e8fd28-c3d7-46b4-bcb3-218603a30252")
+		)
+		(instances
+			(project "POWER"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6035,7 +5891,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR212")
 					(unit 1)
 				)
@@ -6114,7 +5970,7 @@
 		)
 		(instances
 			(project "POWER"
-				(path "/527c9df6-dc0a-40f6-8ecc-02d5214022f5/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
+				(path "/64ff903e-83f4-41e3-bb4b-aa5b7134eca7/aa8285c6-2b6d-4748-add4-e3fc6949c0a3"
 					(reference "#PWR207")
 					(unit 1)
 				)
