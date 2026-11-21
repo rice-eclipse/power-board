@@ -1057,6 +1057,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 106.68 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 		(pin "3"
 			(uuid "cf0cd9ef-4586-494e-a5dc-3f4f98ddeb8d")
 		)
@@ -1131,6 +1144,17 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
 			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C148210"
+			(at 110.49 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
